@@ -10,7 +10,7 @@ cache:
 # Enabling container based infrastructure hoping it will help the build speed <= this didn't work well, so it's reverted
 # see https://docs.travis-ci.com/user/migrating-from-legacy/ and https://docs.travis-ci.com/user/ci-environment
 os: osx
-osx_image: xcode9.4
+osx_image: xcode9.3
 
 language: java
 
