@@ -29,3 +29,6 @@ script:
 after_success:
   #Generates coverage report:
   - ./gradlew --stacktrace coverageReport && cp build/reports/jacoco/mockitoCoverage/mockitoCoverage.xml jacoco.xml || echo "Code coverage failed"
+
+notifications:
+  email: false
